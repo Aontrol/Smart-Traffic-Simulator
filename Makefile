@@ -1,4 +1,4 @@
 all:
 	clear
-	gcc -static main.c -o main -lncurses -ltinfo
-	./main
+	gcc -static traffic_simulator.c -o traffic_simulator -lncurses -ltinfo
+	./traffic_simulator
