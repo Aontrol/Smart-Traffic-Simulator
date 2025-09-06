@@ -1,10 +1,10 @@
-# 🚦 Smart Traffic Simulator
+#  Smart Traffic Simulator
 
 A terminal-based **traffic simulation** tool built using **C** and the **ncurses** library. The simulator allows users to dynamically add vehicles from all four directions and simulates smart traffic control based on traffic density.
 
 ---
 
-## 🧠 Features
+##  Features
 
 * Terminal UI with real-time updates using `ncurses`
 * Add vehicles from **UP**, **DOWN**, **LEFT**, and **RIGHT** directions
@@ -16,13 +16,13 @@ A terminal-based **traffic simulation** tool built using **C** and the **ncurses
 * Visual simulation of vehicles moving through an intersection
 
 ---
-## 🛠️ Requirements
+##  Requirements
 
 * GCC compiler (`gcc`)
 * `ncurses` library
 
 ---
-## ⚙️ Installation
+##  Installation
 
 ### On Debian/Ubuntu
 
@@ -33,7 +33,7 @@ sudo apt install build-essential libncurses5-dev libncursesw5-dev
 
 ---
 
-## 🚀 Build and Run
+## Build and Run
 
 ### 1. Clone the repository
 
