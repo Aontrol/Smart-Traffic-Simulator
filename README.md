@@ -55,9 +55,3 @@ gcc traffic_simulator.c -lncurses -o traffic_simulator
 ```
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
