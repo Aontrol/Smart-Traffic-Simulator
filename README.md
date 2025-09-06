@@ -39,7 +39,7 @@ sudo apt install build-essential libncurses5-dev libncursesw5-dev
 
 ```bash
 git clone https://github.com/Aontrol/Smart-Traffic-Simulator
-cd smart-traffic-simulator
+cd Smart-Traffic-Simulator
 ```
 
 ### 2. Compile the program
