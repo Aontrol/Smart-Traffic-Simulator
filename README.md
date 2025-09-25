@@ -1,7 +1,3 @@
-Great — you're clearly putting together a README or documentation for your **Smart Traffic Simulator** project. Here's a cleaned-up and professional version of your text with proper formatting, clear sections, and some small enhancements for readability and usability on platforms like GitHub:
-
----
-
 # 🚦 Smart Traffic Simulator
 
 **Smart Traffic Simulator** is a **terminal-based traffic control simulation tool** built in **C** using the **ncurses** library. It simulates a traffic intersection where users can dynamically add vehicles and test smart traffic logic prioritizing the most congested routes — including handling emergency vehicles.
@@ -85,13 +81,6 @@ gcc traffic_simulator.c -lncurses -o traffic_simulator
 > *Add a screenshot or GIF of your simulator running here (if applicable)*
 
 ---
-
-## 📄 License
-
-MIT License. Feel free to modify and use it for learning or enhancements.
-
----
-
 Let me know if you want:
 
 * A sample **GIF demo**
