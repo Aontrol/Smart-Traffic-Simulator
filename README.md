@@ -78,12 +78,6 @@ gcc traffic_simulator.c -lncurses -o traffic_simulator
 
 ## 📸 Preview
 
-> *Add a screenshot or GIF of your simulator running here (if applicable)*
+
 
 ---
-Let me know if you want:
-
-* A sample **GIF demo**
-* A basic **Makefile**
-* **README.md** file output for direct use
-* Help with **packaging** this as a `.deb` or Docker container
