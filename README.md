@@ -78,6 +78,6 @@ gcc traffic_simulator.c -lncurses -o traffic_simulator
 
 ## 📸 Preview
 
-
+(./smart_traffic_simulator_preview.png)
 
 ---
