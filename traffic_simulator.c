@@ -404,7 +404,11 @@ void start_simulation()
     int emergency_dir;
     while(is_there_emergency){
         emergency_dir = check_emergency_dir();
-        clear_traffic(emergency_dir);
+        if(is_end(emergency_dir)){
+            break;
+        }else{
+            clear_traffic(emergency_dir); 
+        } 
         is_there_emergency--;
     }
   
