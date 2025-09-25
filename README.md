@@ -1,57 +1,30 @@
-#  Smart Traffic Simulator
+🚦 Smart Traffic Simulator
 
-A terminal-based **traffic simulation** tool built using **C** and the **ncurses** library. The simulator allows users to dynamically add vehicles from all four directions and simulates smart traffic control based on traffic density.
+Smart Traffic Simulator is a terminal-based traffic control simulation tool built in C using the ncurses library. It simulates a traffic intersection where users can dynamically add vehicles and test smart traffic logic prioritizing the most congested routes — including handling emergency vehicles.
 
----
+✨ Features
 
-##  Features
+📟 Terminal UI with real-time updates (powered by ncurses)
 
-* Terminal UI with real-time updates using `ncurses`
-* Add vehicles from **UP**, **DOWN**, **LEFT**, and **RIGHT** directions
-* Smart traffic logic prioritizes the direction with **highest vehicle density**
-* Real-time parameter panel showing:
+⬆️⬇️⬅️➡️ Add vehicles from UP, DOWN, LEFT, and RIGHT directions
 
-  * Total vehicles
-  * Per-route traffic density
-* Visual simulation of vehicles moving through an intersection
+🧠 Smart traffic management based on route density
 
----
-##  Requirements
+🚨 Emergency vehicle handling with top priority
 
-* GCC compiler (`gcc`)
-* `ncurses` library
+📊 Real-time parameter panel displaying:
 
----
-##  Installation
+Total vehicle count
 
-### On Debian/Ubuntu
+Per-route traffic density
 
-```bash
-sudo apt update
-sudo apt install build-essential libncurses5-dev libncursesw5-dev
-```
+🎞️ Animated visual simulation of traffic moving through an intersection
 
----
+📦 Requirements
 
-## Build and Run
+GCC Compiler (gcc)
 
-### 1. Clone the repository
+ncurses library
 
-```bash
-git clone https://github.com/Aontrol/Smart-Traffic-Simulator
-cd Smart-Traffic-Simulator
-```
-
-### 2. Compile the program
-
-```bash
-gcc traffic_simulator.c -lncurses -o traffic_simulator
-```
-
-### 3. Run the simulator
-
-```bash
-./traffic_simulator
-```
-
----
+🛠️ Installation
+On Debian/Ubuntu-based systems:
