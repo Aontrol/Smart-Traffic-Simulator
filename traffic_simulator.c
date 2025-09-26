@@ -374,7 +374,7 @@ void clear_traffic(int dir){
 
     for (int i = vehicle_count - 1; i >= 0; i--)
     {
-        if (dir == vehicle[i].route)
+        if (dir == vehicle[i].route && is_end(dir))
         {
             switch (vehicle[i].route)
             {
@@ -404,7 +404,7 @@ void start_simulation()
     int emergency_dir;
     while(is_there_emergency){
         emergency_dir = check_emergency_dir();
-        if(is_end(emergency_dir)){
+        if(!is_end(emergency_dir)){
             break;
         }else{
             clear_traffic(emergency_dir); 
