@@ -56,6 +56,7 @@ void display_values()
 
     box(parameter_win, 0, 0);
     wrefresh(parameter_win);
+    delwin(parameter_win);
 }
 
 void create_emergenecy_vehicle(int route, int centerX, int centerY)
@@ -411,7 +412,8 @@ void start_simulation()
         } 
         is_there_emergency--;
     }
-  
+    
+
     int long_traffic_dir = traffic_dencity();
     clear_traffic(long_traffic_dir);
 
@@ -504,6 +506,9 @@ int main()
     int ch;
     while ((ch = getch()) != 'q')
     {
+        if(ch == KEY_RESIZE){
+
+        }
         if (ch == KEY_UP)
         {
             create_vehicle(UP, scrCenterX, scrCenterY);
